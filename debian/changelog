@@ -1,0 +1,47 @@
+node-proxy-addr (2.0.6+~0.1.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Remove unnecessary XS-Testsuite field in debian/control.
+  * Update Vcs-* headers to use salsa repository.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install (Closes: #974376)
+  * Replace statically embedded "forwarded" by uscan component
+  * New upstream version 2.0.6+~0.1.2
+  * Add build dependency to node-deep-equal
+  * Require node-ipaddr.js ≥ 2.0~
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 23 Dec 2020 13:05:47 +0100
+
+node-proxy-addr (1.0.3-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.0.3
+  * Bump Standards-Version 3.9.6
+  * Bundle forwarded module as a patch
+  * debian/rules:
+    - run tests for forwarded module
+    - update dh_auto_tests command
+    - update HISTORY.md filename
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sun, 12 Oct 2014 02:24:32 +0200
+
+node-proxy-addr (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #753807)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sat, 05 Jul 2014 18:32:39 +0200
